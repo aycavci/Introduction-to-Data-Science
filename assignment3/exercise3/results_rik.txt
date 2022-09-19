@@ -1,0 +1,47 @@
+KNN (K = 5), doubled the underpopulated group, test_size = 0.3:
+[[27  4]
+ [ 9  1]]
+Accuracy test data =  0.6829268292682927
+Of the unlabelled patients I found  20 / 20 of the unlabelled patients
+
+KNN (K = 7), quadrupled the underpopulated group, test_size = 0.5
+Confusion matrix of accuracy test
+[[76  1]
+ [ 7 40]]
+Accuracy test data =  0.9354838709677419
+Of the unlabelled patients I found  23 / 20 of the unlabelled patients
+
+
+
+---------------------------------Best----------------------------------
+RandomForestClassifier (max_depth = 5), test_size = 0.4, randomSeed = 5,
+quadrupled underpopulated subgroup
+Confusion matrix of accuracy test
+[[34  0]
+ [ 0 16]]
+Accuracy test data =  1.0
+Of the unlabelled patients I found  20 / 20 of the unlabelled patients
+-----------------------------------------------------------------------
+
+KNN (K = 9), quadrupled the underpopulated subgroup, test_size = 0.2, randomSeed = 5
+
+Confusion matrix of accuracy test
+[[34  0]
+ [ 0 16]]
+Accuracy test data =  1.0
+Of the unlabelled patients I found  22 / 20 of the unlabelled patients
+
+kfold accuracy score =  0.9704565408252854
+best accuracy score =  0.9552238805970149
+Best confusion matrix =
+ [[30  3]
+ [ 0 34]]
+Best settings are: depth =  19  best estimators =  99
+Of the unlabelled patients I found  21 / 20 of the unlabelled patients
+
+best accuracy score =  1.0
+Best confusion matrix =
+ [[32  0]
+ [ 0 36]]
+Best settings are: depth =  19  best estimators =  100
+Of the unlabelled patients I found  19 / 20 of the unlabelled patients
